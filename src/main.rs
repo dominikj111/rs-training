@@ -1,7 +1,7 @@
 mod exercises;
 
-mod general {
-    pub use super::exercises::general::general_prelude::*;
+mod general_exercises {
+    pub use super::exercises::general::prelude::*;
 }
 
 fn main() {
@@ -26,15 +26,18 @@ fn main() {
 
     println!("Hello World!");
 
-    println!("narcissistic: {}", general::narcissistic(153));
-    println!("duplicate_encode: {}", general::duplicate_encode("recede"));
+    println!("narcissistic: {}", general_exercises::narcissistic(153));
+    println!(
+        "duplicate_encode: {}",
+        general_exercises::duplicate_encode("recede")
+    );
     println!(
         "break_camelcase: {}",
-        general::break_camelcase("ahojJakSeVede!")
+        general_exercises::break_camelcase("ahojJakSeVede!")
     );
     println!(
         "product_fib: {}",
-        if general::product_fib(4895).2 {
+        if general_exercises::product_fib(4895).2 {
             "OK"
         } else {
             "NOK"
@@ -54,7 +57,7 @@ fn main() {
     ];
     println!(
         "Arrays are same: {}",
-        if general::are_two_arrays_same(a1, a2) {
+        if general_exercises::are_two_arrays_same(a1, a2) {
             "corrent"
         } else {
             "incorrent"
