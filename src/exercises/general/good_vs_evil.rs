@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 const GOOD_BOYS: [u8; 6] = [
     1,  // Hobbits
     2,  // Men
