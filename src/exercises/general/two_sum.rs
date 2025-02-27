@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::collections::HashMap;
 
 pub fn two_sum(numbers: &[i32], target: i32) -> (usize, usize) {

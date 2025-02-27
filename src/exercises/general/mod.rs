@@ -8,6 +8,7 @@ pub mod narcissistic_numbers;
 pub mod product_fib;
 pub mod two_sum;
 
+#[allow(unused_imports)]
 pub mod prelude {
     pub use super::are_two_arrays_same::comp as are_two_arrays_same;
     pub use super::break_camelcase::*;
