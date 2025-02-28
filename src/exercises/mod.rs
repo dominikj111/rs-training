@@ -1,4 +1,4 @@
-// Auto-generated mod.rs
+// Maintained by ./tools/update_mods.sh
 
 pub mod general;
 

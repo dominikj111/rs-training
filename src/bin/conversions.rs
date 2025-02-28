@@ -24,7 +24,10 @@ fn main() {
 
     println!("Hello World!");
 
-    println!("narcissistic: {}", general_exercises::narcissistic(153));
+    println!(
+        "narcissistic: {}",
+        general_exercises::narcissistic_numbers(153)
+    );
     println!(
         "duplicate_encode: {}",
         general_exercises::duplicate_encode("recede")
