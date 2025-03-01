@@ -1,5 +1,16 @@
 {
   "imports": {
     "path": "https://deno.land/std@0.224.0/path/mod.ts"
+  },
+  "compilerOptions": {
+    "allowJs": false,
+    "lib": ["deno.ns", "deno.window"],
+    "strict": true
+  },
+  "lint": {
+    "include": ["**/*.ts"]
+  },
+  "fmt": {
+    "include": ["**/*.ts"]
   }
 }
