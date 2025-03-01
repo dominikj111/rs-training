@@ -1,5 +1,7 @@
 // Maintained by ./tools/update_mods.sh
 
+#![allow(unused_imports)]
+
 pub mod are_two_arrays_same;
 pub mod break_camelcase;
 pub mod duplicate_encode;

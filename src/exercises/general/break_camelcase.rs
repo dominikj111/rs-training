@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn break_camelcase(words: &str) -> String {
     let mut new_string = String::new();
 

@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 struct Fibonacci {
     values: [usize; 128],
 }

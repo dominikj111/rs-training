@@ -92,6 +92,7 @@ function ensureModRsInModuleDir(
   }
 
   if (modLines.length) {
+    modLines.unshift("#![allow(unused_imports)]\n");
     modLines.unshift("// Maintained by ./tools/update_mods.sh\n");
 
     if (fileModulePreludes.length) {

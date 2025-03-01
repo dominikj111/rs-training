@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn duplicate_encode(word: &str) -> String {
     let word = word.to_lowercase();
     word.chars()

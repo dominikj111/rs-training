@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn comp(a: Vec<i64>, b: Vec<i64>) -> bool {
     let mut b_processed_indexes: Vec<Option<usize>> = vec![];
 
